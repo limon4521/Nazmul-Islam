@@ -1,7 +1,48 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    background-image: url(image/header.png);
+    background-repeat: no-repeat;
+    margin-top: 3%;
 }
 .Name{
     color: orange;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif; 
+}
+h2{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
 
+p{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( orange,red, tomato);
+    color: white;
+    padding: 5px 20px 5px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    display: flex; 
+}
+.half-width{
+    width: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.half-width img{
+    width: 80%;
+    margin-left: 10%;
+}
+.Dream{
+    margin-top: 10%;
 }
